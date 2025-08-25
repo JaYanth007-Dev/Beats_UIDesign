@@ -1,4 +1,5 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { Link as ScrollLink } from "react-scroll"; 
 
 export default function Header() {
 
@@ -12,10 +13,24 @@ export default function Header() {
             <Link to="/">Home</Link>
           </li>
           <li className="px-6 py-2 transition-all duration-500 cursor-pointer  hover:text-red-500">
-            <Link to="#specs">Specs</Link>
+             <ScrollLink
+              to="specs"
+              smooth={true}
+              duration={800}
+              offset={-200}
+            >
+              Specs
+            </ScrollLink>
           </li>
           <li className="px-6 py-2 transition-all duration-500 cursor-pointer hover:text-red-500">
-            <Link to="#case">Case</Link>
+            <ScrollLink
+              to="case"
+              smooth={true}
+              duration={800}
+              offset={-10}
+            >
+              Case
+            </ScrollLink>
           </li>
           <li className="px-6 py-2 transition-all duration-500 cursor-pointer  hover:text-red-500">
             <Link to="/products">Products</Link>
