@@ -14,8 +14,7 @@ import { useEffect } from 'react';
 function App() {
    useEffect(() => {
      AOS.init({
-       duration: 1000, // animation duration in ms
-       once: true, // whether animation should happen only once
+       duration: 1200, 
      });
    }, []);
   return (
@@ -23,7 +22,9 @@ function App() {
       <Header />
       <Hero />
       <CompanyLogos />
-      <Specifications/>
+      <Specifications />
+      <CaseSection />
+      <BuyNowSection/>
       <Footer />
     </div>
   );
