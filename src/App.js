@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import CompanyLogos from "./components/CompanyLogos";
 import Specifications from "./components/Specifications";
 import CaseSection from "./components/CaseSection";
-import BuyNowSection from "./components/BuyNowSection";import ProductSelection from "./components/ProductSelection";
+import BuyNowSection from "./components/BuyNowSection";
 import { Routes, Route } from "react-router-dom";
 
 import Footer from "./components/Footer";
