@@ -22,6 +22,8 @@ function App() {
     <div className="min-h-screen bg-[#0F0F10] text-white">
       <Header />
       <Hero />
+      <CompanyLogos />
+      <Specifications/>
       <Footer />
     </div>
   );
